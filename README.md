@@ -40,7 +40,7 @@ $  cmake --build . -t install --config Release
 
 ## Run test project
 
-- Build as normal with CMake
+- Clone repo and build as normal with CMake.
 - Expected output:
 
 ```
@@ -50,3 +50,5 @@ $  cmake --build . -t install --config Release
         ALL RIGHTS RESERVED
 Hello World SystemC
 ```
+
+- (For better intellisense change `includePath` in `.vscode/c_cpp_properties.json` on linux)
