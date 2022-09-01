@@ -38,6 +38,15 @@ $  cmake --build . --config Release
 $  cmake --build . -t install --config Release
 ```
 
+#### Optional
+- To build things that uses pthreads use [vcpkg](https://vcpkg.io/en/getting-started.html) (Follow instructions in link)
+
+- then run:
+```powershell
+$ ./vcpkg.exe install pthread:x64-windows pthread:x86-windows
+```
+- Under configuration it might still write that it could not find pthread. But the project still builds.
+
 ## Run test project
 
 - Clone repo and build as normal with CMake.
