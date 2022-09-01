@@ -39,7 +39,7 @@ $  cmake --build . -t install --config Release
 ```
 
 #### Optional
-- To build things that uses pthreads use [vcpkg](https://vcpkg.io/en/getting-started.html) (Follow instructions in link)
+- To build things that uses pthreads use [vcpkg](https://vcpkg.io/en/getting-started.html) (Follow instructions in link but place vcpkg repo in `C:/vcpkg` for cmake to be able to find liberaries.)
 
 - then run:
 ```powershell
