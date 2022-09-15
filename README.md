@@ -38,6 +38,10 @@ $  cmake --build . --config Release
 $  cmake --build . -t install --config Release
 ```
 
+### Want to be able to build SystemC projects in Debug?
+
+Go through the steps in either Linux or Windows again with `config=Debug` or `--config Debug`respectively.
+
 #### Optional
 - To build things that uses pthreads use [vcpkg](https://vcpkg.io/en/getting-started.html) (Follow instructions in link but place vcpkg repo in `C:/vcpkg` for cmake to be able to find liberaries.)
 
